@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    list-style: none;
+   
     text-decoration: none;
     box-sizing: border-box;
 
@@ -33,6 +33,7 @@ header{
 
 .nav-bar ul{
     display: flex;
+    list-style: none;
 
 }
 .nav-bar ul li  a{
@@ -80,14 +81,25 @@ main {
   text-align: center;
   
 }
-
-h1 {
+.image-title h1{
   color: #FFF;
-  font-family: Mulish;
-font-size: 70px;
-font-weight: 800;
 
+font-family: Mulish;
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
 }
+.image-title P{
+  color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
+}
+
 
 .option-selection-button {
   border-radius: 8px;
@@ -134,7 +146,28 @@ button a{
   margin-left: 11px;
  
 }
-
+.container-3{
+  margin: 80px 120px;
+  display: flex;
+  gap: 95px;
+}
+.container-text{
+  height: auto;
+  width: 50%;
+}
+.readmore{
+  margin-top: 15px;
+}
+.container-text ul li{
+  padding: 20px;
+}
+.container-3-image{
+  width: 50%;
+  width: 540px;
+height: 550px;
+border-radius: 16px;
+background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+}
 /* 2ed part css */
 
 
@@ -179,17 +212,16 @@ body {
 
 
 
-@media screen and (max-width:1320px){
-header{
-    padding: 0 50px;
-}
+
     
-} 
+
 @media screen and (max-width:600px){
    .hamburger{
     display: block;
     cursor: pointer;
    }
+   
+
    .hamburger .line{
     width: 30px;
     height: 3px;
@@ -210,8 +242,43 @@ header{
  
     display: none;
   }
-}
+  main{
+    margin: 20px 20px;
+    height: 460px;
+    width: 335;
+  }
+  .image-title h1{
+    color: #FFF;
 
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 800;
+  }
+  .image-title P{
+    color: #FFF;
+font-family: Mulish;
+font-size: 14px;
+font-weight: 400;
+line-height: 21px; 
+  }
+  .option-selection-button {
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+.container-3 {
+  margin: 20px 20px;
+  display: flex;
+  gap: 95px;
+  flex-direction: column;
+  
+}
+.container-text {
+  height: auto;
+  width: 100%;}
+}
    /* Responsive layout - makes a two column-layout instead of four columns
 @media screen and (max-width: 800px) {
     .column {
