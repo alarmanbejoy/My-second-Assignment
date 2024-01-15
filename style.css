@@ -168,47 +168,130 @@ height: 550px;
 border-radius: 16px;
 background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
-/* 2ed part css */
 
-
-
-/* imgage grid style part
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: Arial;
-}
-
-.header {
+.container-4{
+  margin: 40px 120px;
   text-align: center;
-  padding: 32px;
+}
+.container-4 h1{
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;;
+font-weight: 800;
+}
+.container-4 p {
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-top: 15px; 
 }
 
-.row {
-  display: -ms-flexbox; /* IE10 */
-  /* display: flex;
-  -ms-flex-wrap: wrap; /* IE10 */
-  /* flex-wrap: wrap;
-  padding: 0 4px;
-} */
+header .logo img{
+  width: 21.162px;
+  height: 19.246px;
 
-/* Create four equal columns that sits next to each other */
-/* .column {
-  -ms-flex: 25%; /* IE10 */
-  /* flex: 25%;
-  max-width: 25%;
-  padding: 0 4px; */
-/* } */ 
+}
 
-/* .column img {
-  margin-top: 8px;
-  vertical-align: middle;
-    width: 100%;} */
-   /* */ 
+
+
+
+
+.container-5{
+    margin: 50px 120px;}
+
+    .first-img-row{
+      display: flex;
+      gap: 24px;
+    }
+    
+    .first-img-row > div {
+      flex-basis: 50%;
+      position: relative;
+    }
+    
+    .first-img-row img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+    
+    .first-img-row h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      text-align: center;
+      color: white;
+    }
+
+    .second-img-row {
+      display: flex;
+      gap: 24px;
+      margin-top: 17px;
+    }
+    
+    .second-img-row > div {
+      flex: 1;
+      position: relative;
+      text-align: center;
+    }
+    
+    
+    .second-img-row img {
+      margin:5px 0px;
+        width: 100%;
+        height: 300px;
+        display: block;
+      }
+    
+    
+    .second-img-row h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      color: white;
+    }
+
+    .third-img-row{
+      display: flex;
+      margin-top:17px ;
+      gap: 24px;
+    }
+    
+    .third-img-row > div {
+      flex-basis: 50%;
+      position: relative;
+    }
+    
+    .third-img-row img {
+      width: 100%;
+      height: 300px;
+      display: block;
+    }
+    
+    .third-img-row h1 {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      margin: 0;
+      text-align: center;
+      color: white;
+    }
+
+    
+    
+    
+
+  
+
 
 
 
@@ -277,7 +360,50 @@ line-height: 21px;
 }
 .container-text {
   height: auto;
-  width: 100%;}
+  width: 100%;
+}
+.container-4 {
+  margin: 20px 20px;
+  text-align: center;
+}
+.container-4 h1{
+color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+}
+.container-4 p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+}
+.container-5{
+  margin: 20px 20px;
+}
+.first-img-row {
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+}
+.second-img-row {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-top: 17px;
+}
+  .third-img-row {
+    display: flex;
+    flex-direction: column;
+    margin-top: 17px;
+    gap: 17px;
+}
+
+
+
 }
    /* Responsive layout - makes a two column-layout instead of four columns
 @media screen and (max-width: 800px) {
