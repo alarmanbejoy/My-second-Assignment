@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+header{
+    width: 100%;
+    height: 80px;
+    background-color: #fefefe;
+    display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0 100px;
+   font-family: Mulish;
+}
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: #131318;
+    font-family: Mulish;
+
+}
+.logo .ab{
+  color: #FF5400;
+}
+.hamburger{
+    display: none;
+
+}
+
+.nav-bar ul{
+    display: flex;
+
+}
+.nav-bar ul li  a{
+    display: block;
+    color: #131318;
+    font-size: 20px;
+    padding: 10px  25px;
+    border-radius: 50px;
+    transition: 0.2s;
+    margin: 0  5px;
+    font-family: Mulish;
+}
+.nav-bar ul li a:hover{
+    color: #11101b;
+ 
+}
+.nav-bar ul li a.active{
+   
+ color: #FF5400;
+}
+main {
+ margin: 10px 120px;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('Images/Group 13 (1) (1).png');
+  background-size: 100% 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  font-family: Mulish;
+  padding: 20px;
+}
+
+.second-header {
+  width: 100%;
+}
+
+.image-title {
+  text-align: center;
+  
+}
+
+h1 {
+  color: #FFF;
+  font-family: Mulish;
+font-size: 70px;
+font-weight: 800;
+
+}
+
+.option-selection-button {
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.30);
+  padding: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 30px;
+    gap: 10px;}
+
+select, button {
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 10px;
+  border: none;
+}
+
+select {
+  background-color: white;
+  color: rgba(19, 19, 24, 0.50);
+  width: 130px;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+
+}
+
+button {
+  background-color: orange;
+  width: 130px;
+  color: #FFF;
+  text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 700;
+
+}
+button a{
+  color: white;
+}
+.fa-search{
+  margin-left: 11px;
+ 
+}
+
+/* 2ed part css */
+
+
+
+/* imgage grid style part
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  /* display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  /* flex-wrap: wrap;
+  padding: 0 4px;
+} */
+
+/* Create four equal columns that sits next to each other */
+/* .column {
+  -ms-flex: 25%; /* IE10 */
+  /* flex: 25%;
+  max-width: 25%;
+  padding: 0 4px; */
+/* } */ 
+
+/* .column img {
+  margin-top: 8px;
+  vertical-align: middle;
+    width: 100%;} */
+   /* */ 
+
+
+
+@media screen and (max-width:1320px){
+header{
+    padding: 0 50px;
+}
+    
+} 
+@media screen and (max-width:600px){
+   .hamburger{
+    display: block;
+    cursor: pointer;
+   }
+   .hamburger .line{
+    width: 30px;
+    height: 3px;
+    background:black;
+    margin: 6px 0;
+   }
+   .nav-bar{
+    height: 0px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    width: 100vw;
+    background: #11101b;
+    transition: 0.2s;
+   }
+   .nav-bar ul{
+ 
+    display: none;
+  }
+}
+
+   /* Responsive layout - makes a two column-layout instead of four columns
+@media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  Responsive layout - makes the two columns stack on top of each other instead of next to each other
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+        
+    } 
