@@ -111,11 +111,22 @@ line-height: 26px;
   margin-top: 30px;
     gap: 10px;}
 
-select, button {
+select {
   padding: 10px;
   border-radius: 8px;
   margin-right: 10px;
   border: none;
+}
+.btn-1 {
+  padding: 10px;
+  border-radius: 8px;
+  margin-right: 8px;
+  border: none;
+}.readmore{
+  padding: 10px;
+  margin: 0;
+  border: none;
+  border-radius: 8px;
 }
 
 select {
@@ -140,11 +151,13 @@ font-weight: 700;
 
 
 }
-button a:{
-  color: white;
+button a{
+    color: white;}
+    button a:hover{
+      color:green}
+    
   
-  
-}
+
 .fa-search{
   margin-left: 11px;
  
@@ -346,10 +359,172 @@ background: rgba(41, 206, 246, 0.05);
 border: 1px solid rgba(233, 68, 68, 0.20);
 background: rgba(233, 68, 68, 0.05);
     }
-    
-    
+
+    .container-8{
+      margin: 50px 120px;
+      display: flex;
+      gap: 50px;
+    }
+    .container-8 h4{
+      color: #131318;
+      font-family: Mulish;
+      font-size: 40px;
+      font-style: normal;
+      font-weight: 800;
+    .container-text{
+      margin-top: 40px;
+    }
+    }
+    .container-8 p{
+      color: rgba(19, 19, 24, 0.70);
+ 
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
 
   
+
+  }
+  .container-video {
+    margin-top: -110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 16px;
+
+  }
+
+  .container-video video {
+    width: 600px;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 16px;
+  }
+
+  .container-video h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+  }
+
+  .newsletter-container-part{
+    font-family: Mulish;
+   
+    align-items: center;
+    justify-content: center;
+    height: 400px;
+    width: 600px;
+  border: 2px solid orange;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .newsletter-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 16px;
+    
+  }
+  
+  input[type="text"], input[type="email"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 20px ;
+color: gray;
+    border-radius: 8px;
+    background-color: whitesmoke;
+   border: none;
+  }
+  
+  input[type="submit"] {
+    background-color: orange;
+    color: #fff;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    width: 100%;
+    color: #FFF;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+  }
+ .newsletter-container, .form-title{
+    color: #131318;
+font-family: Mulish;
+font-size: 24px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+padding: 40px;
+margin-bottom: 20px;
+  }
+  .newsletter-container p{
+    color: #5A5A5D;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 3; 
+  }
+  .container-9{
+    display: flex;
+    margin: 50px 120px;
+    gap: 20px;
+  }
+
+
+footer{
+  width: 100%;
+height:300px;
+ background:rgba(19, 19, 24, 0.05);
+ text-align: center;
+ align-items: center;
+ margin-top: 15px;
+
+}
+  .footer-logo{
+  font-size: 32px;
+  font-weight: bold;
+  color: #131318;
+  font-family: Mulish;
+
+}
+ .footer-logo .ab{
+  color: #FF5400}
+  .fa-twitter {
+    padding: 5px;
+
+  }
+  .fa-facebook-f{
+        padding: 3px;}
+.fa-instagram{
+  padding: 5px;
+}
+
+.footer-content{
+  margin-top: 15px;
+}
+   footer .last{
+    margin-top: 50px;
+   }
+   footer hr{
+    width: 50%;
+    justify-content: center;
+    margin-left: 400px;
+   }
 
 
 
@@ -460,9 +635,70 @@ line-height: 24px;
     margin-top: 17px;
     gap: 17px;
 }
+.container-6 {
+  margin: 20px 20px;
+}
+.container-6 h2{
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 20px;
+font-weight: 800;
+}
+.container-6{
+  color: rgba(19, 19, 24, 0.70);
+  text-align: center;
+  font-family: Mulish;
+  font-size: 16px;
+  font-weight: 400;
+}
+  .container-7 {
+    margin: 20px 20px;
+}
+.main-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 17px;
+}
+.container-8 {
+  margin: 20px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 150px;}
+  .container-video{
+    width: 100%;
+    justify-content: center;
+    text-align: center;
 
+  }
+  .container-8 h4 {
+    color: #131318;
+font-family: Mulish;
+font-size: 20px;
+font-style: normal;
+font-weight: 800;
+line-height: 30px;
+margin-top: 5px;
+}
+.container-9 {
+  display: flex;
+  margin: 50px 120px;
+  gap: 20px;
+}
+.container-9 {
+  display: flex;
+  flex-direction: column;
+  margin: 2dvh 20px;
+  gap: 17px;
 
+}
 
+footer hr {
+  width: 50%;
+  justify-content: center;
+  margin-left:151px;
+}
 }
    /* Responsive layout - makes a two column-layout instead of four columns
 @media screen and (max-width: 800px) {
