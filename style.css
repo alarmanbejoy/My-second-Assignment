@@ -138,9 +138,12 @@ font-family: Mulish;
 font-size: 16px;
 font-weight: 700;
 
+
 }
-button a{
+button a:{
   color: white;
+  
+  
 }
 .fa-search{
   margin-left: 11px;
@@ -285,8 +288,64 @@ header .logo img{
       text-align: center;
       color: white;
     }
+.container-6{
+  margin: 50px 120px;
 
+}
+.container-6 h2{
+  color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-weight: 800;
+}
+.container-6 p{
+  color: rgba(19, 19, 24, 0.70);
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-weight: 400;
+}
+    .container-7{
+      margin: 50px 120px;
+    }
+    .main-box{
+      display: flex;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 40px;
+    }
+    .inner-card-1{
+      width: 620px;
+      height: 250px;
+      border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+padding: 30px;
+    }
+    .main-box .inner-card-1 h3{
+      margin-right: 5px;
+    }
+  
     
+    .inner-card-2{
+      width: 610px;
+      height: 250px;
+      padding: 30px;
+       border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+    }
+    
+    .inner-card-3{
+      width: 610px;
+      height: 250px;
+       padding:30px;
+      border-radius: 16px;
+border: 1px solid rgba(233, 68, 68, 0.20);
+background: rgba(233, 68, 68, 0.05);
+    }
     
     
 
