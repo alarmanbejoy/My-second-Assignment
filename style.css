@@ -823,7 +823,16 @@ footer hr {
     justify-content: center;
     margin-left: 151px;
   }
-   .text-both {
+  .text-both {
+    border-radius: 16px;
+    background: #FF5400;
+    width: 25%;
+    height: 150px;
+    color: white;
+    text-align: center;
+    padding: 12px;
+      font-size: 20px;}
+   
    
  
 }
